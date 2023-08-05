@@ -145,12 +145,11 @@ function getFeedHTML(){
                         </span>
                     </div>   
                 </div>            
-            </div>
-            <div class="hidden" id="replies-${object.uuid}">
-            ${repliesHTML}
-        </div>   
-        </div>
-        </div>
+             </div>
+             <div class="hidden" id="replies-${object.uuid}">
+             ${repliesHTML}
+          </div>   
+          </div>
         `
         /* if(object.replies.length > 0){
             document.getElementById(`replies-${object.uuid}`).style.display="none"
